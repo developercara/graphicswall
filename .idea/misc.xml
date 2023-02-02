@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/drawable/bg_round.xml" value="0.253" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/drawable/shadows.xml" value="0.253" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_categories1.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_finalwallpaper.xml" value="0.2" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_main.xml" value="0.46647230320699706" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/activity_test.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/candy_item.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/custom_toast.xml" value="0.24864130434782608" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_asthetic.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_candy_colors.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_cato.xml" value="0.2745995423340961" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_d3dchracter.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_download.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_holo.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_minimal.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_mixed3d2d.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_nostaiga.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_psychedelic.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_setting.xml" value="0.24864130434782608" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/fragment_ukiyo.xml" value="0.2359375" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/item_main.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/navibotom.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/progressbar.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/shadows.xml" value="0.24864130434782608" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/layout/splashscreen.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/menu/navibar.xml" value="0.25" />
+        <entry key="..\:/projects android/graphicwalls/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.253" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
