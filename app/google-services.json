@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971324621630",
+    "project_id": "graphicwalls-14fb1",
+    "storage_bucket": "graphicwalls-14fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971324621630:android:b571dda05c8dac6beda26f",
+        "android_client_info": {
+          "package_name": "com.cara.graphicwalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971324621630-dc9of46m4pdh8m9scu162lh18r8muu77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7PQryJcYDT2uBW5rH885l3YajwFN3y4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971324621630-dc9of46m4pdh8m9scu162lh18r8muu77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

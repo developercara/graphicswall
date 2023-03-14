@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/about"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_240sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/logo"/>
+        </LinearLayout>
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_below="@id/about"
+            android:layout_width="match_parent"
+            android:id="@+id/rateus"
+            android:layout_height="@dimen/_40sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/rate"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:textSize="@dimen/_13ssp"
+                android:text="Rate the app"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_below="@id/rateus"
+            android:id="@+id/follow"
+            android:layout_height="@dimen/_40sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/insta"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:textSize="@dimen/_13ssp"
+                android:text="Follow us me Instagram"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/sharethisapp"
+            android:layout_below="@id/follow">
+
+            <ImageView
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:background="@drawable/share" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:text="Share this app"
+                android:textSize="@dimen/_13ssp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/youtube"
+            android:layout_below="@id/sharethisapp">
+
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:background="@drawable/youtube" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:text="Follow me on Youtube"
+                android:textSize="@dimen/_13ssp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:id="@+id/github"
+            android:layout_below="@id/youtube">
+
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_29sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:background="@drawable/git" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:text="Follow me on GitHub"
+                android:textSize="@dimen/_13ssp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

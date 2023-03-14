@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/fff"
+    tools:context=".finalwallpaper">
+
+    <ImageView
+        android:id="@+id/finalwall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+
+        <ImageView
+            android:id="@+id/btnDownload"
+            android:layout_width="@dimen/_38sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="20sp"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:background="@drawable/btn2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnSetWallpaper"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btnSetWallpaper"
+            android:layout_width="@dimen/_200sdp"
+
+            android:layout_height="@dimen/_31sdp"
+            android:layout_alignRight="@id/btnDownload"
+            android:foreground="?android:attr/selectableItemBackground"
+      
+            android:layout_marginStart="40sp"
+            android:background="@drawable/apply"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/baloo"
+            android:shadowColor="@color/black"
+            android:text="Apply"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnSetWallpaper"
+            app:layout_constraintStart_toStartOf="@+id/btnSetWallpaper"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</RelativeLayout>

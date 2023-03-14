@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".catoFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_marginBottom="10sp"
+        app:cardCornerRadius="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/Scat1"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:background="@drawable/candycolors"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:id="@+id/Scat2"
+                android:background="@drawable/nostalgia"/>
+
+            <ImageView
+                android:id="@+id/Scat3"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/mixed3d"
+                app:cardCornerRadius="@dimen/_10sdp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:id="@+id/Scat4"
+                android:background="@drawable/ukiyou"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:id="@+id/Scat5"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:background="@drawable/d3character"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:id="@+id/Scat6"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:background="@drawable/minimal"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:id="@+id/Scat7"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:background="@drawable/aesthetic"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:id="@+id/Scat8"
+                android:layout_marginBottom="@dimen/_20sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:background="@drawable/psychedelic"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
